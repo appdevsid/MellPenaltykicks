@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.mellpenaltykicks" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+  <name>MellPenalty kicks</name>
+  <platform name="ios">
+    <preference name="DeploymentTarget" value="13.0" />
+    <preference name="CordovaWebViewEngine" value="WKWebView" />
+    <icon src="resources/ios/icon.png" />
+    <splash src="resources/ios/splash.png" />
+
+    <!-- <config-file target="NSPhotoLibraryUsageDescription" parent="NSPhotoLibraryUsageDescription">
+      <string>Приложению нужен доступ к фото для сохранения игровых моментов</string>
+    </config-file> -->
+  </platform>
+
+  <!-- Общие настройки -->
+  <preference name="SplashScreenDelay" value="3000" />
+  <preference name="FadeSplashScreenDuration" value="500" />
+  <preference name="Orientation" value="portrait" />
+</widget>
